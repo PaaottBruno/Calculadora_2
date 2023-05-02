@@ -29,6 +29,9 @@ Subtracao: Igor
 =================================
 Multi:nicolas
 
+    se (operador == "*"){
+      resultado = num1 * num2 
+    }
 
 =================================
 Divisao: Bruno
