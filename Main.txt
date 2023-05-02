@@ -1,5 +1,16 @@
 Adicao: Gabriel
 
+escreva ("digite um número:")
+    leia (num1)
+    leia (num2)
+
+    escreva ("operação:")
+    leia (operador)
+    se (operador == "+")
+    {
+      resultado = num1 + num2
+      escreva (resultado)
+      }
 
 =================================
 Subtracao: Igor
