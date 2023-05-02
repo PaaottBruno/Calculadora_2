@@ -11,7 +11,11 @@ Multi:nicolas
 
 =================================
 Divisao: Bruno
+senao se (operador=='/')
 
+    result = num1/num2
+
+    escreva (num1," / ",num2," = ",result)
 
 =================================
 Raiz: joâo
