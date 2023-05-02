@@ -1,4 +1,22 @@
 Raiz: joâo
+CABEÇALHO: joâo
+programa {
+  funcao inicio() {
+
+    cadeia operador
+    real num1,num2,result
+   
+    escreva("---------------------------------------------\n")
+    escreva("----BEM VINDO A PIOR CALCULADORA DO SENAC----\n")
+    escreva("---------------------------------------------\n")
+    escreva("Escolha a sua operação.\n\nDigite + Adição\nDigite - Subtração\nDigite * Multiplicação\nDigite / Divisão\nDigite % Porcentagem\n\n")
+    leia(operador)
+    escreva("")
+
+    escreva("Digite o primeiro valor: ")
+    leia(num1)
+    escreva("Digite o segundo valor: ")
+    leia(num2)
 
 =================================
 Subtracao: Igor
@@ -15,19 +33,12 @@ Divisao: Bruno
 =================================
 Adicao: Gabriel
 
-escreva ("digite um número:")
-    leia (num1)
-    leia (num2)
 
     escreva ("operação:")
     leia (operador)
-    se (operador == "+")
+    senao se (operador == "+")
     {
       resultado = num1 + num2
-      escreva (resultado)
+      escreva (result)
       }
-
-
-=================================
-Porcent: Reginaldo
 
