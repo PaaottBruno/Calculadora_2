@@ -38,29 +38,12 @@ Divisao: Bruno
 
 Porcent: Reginaldo
 
-programa {
-  funcao inicio() {
-  
-
-    real num1,num2,porcent
-    cadeia operador
-
-    escreva("Digite o operador: ")
-    leia(operador)
-    escreva("Digite um número: ")
-    leia(num1)
-    escreva("Digite outro número: ")
-    leia(num2)
-
     se(operador=='%'){
     porcent=num1*num2/100
     escreva("O resultado da porcentagem é ",porcent)
     
     senao
-    escreva("Operador errado errada")
+    escreva("Operador errado")
 
+   }
 
-   } 
-    
-  }
-}
